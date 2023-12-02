@@ -4,10 +4,12 @@
     font-family: 'Noto Sans', sans-serif;
 }
 body {
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #efefef;
+    font-size: 16px;
 }
 .banner {
+    color: #fff;
     position: relative;
     height: 450px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -21,7 +23,8 @@ body {
     align-items: center;
 }
 .navbar {
-    width: 85%;
+    background-color: #E27802;
+    width: 100%;
     margin: auto;
     padding: 35px 0;
     display: flex;
@@ -29,6 +32,7 @@ body {
     justify-content: space-between;			
 }
 .logo {
+    margin-left: 50px;
     width: 128px;
     cursor: pointer;
 }
