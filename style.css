@@ -1,112 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
 body {
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            background-color: #000;
-            color: #fff;
-        }
+    color: #fff;
+    background-color: #000;
+}
+.banner {
+    position: relative;
+    height: 450px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(./assets/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;			
+}
+.logo {
+    width: 128px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px; 
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%
+}
+.banner h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
 
-        .banner {
-            position: relative;
-            height: 450px;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url(https://www.coffeellera.com/wp-content/uploads/2023/05/cost-of-starting-a-coffee-business-in-the-philippines.jpg);
-            background-size: cover;
-            background-position: center;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+.cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
 
-        .navbar {
-            width: 85%;
-            margin: auto;
-            padding: 35px 0;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
+.cta-button:hover {
+    background-color: #fff;
+    color: #e50914;
+}
+.photo-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+}
 
-        .logo {
-            width: 120px;
-            cursor: pointer;
-        }
+.photo-box {
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-        .navbar ul {
-            list-style: none;
-            display: flex;
-            margin: 0;
-            padding: 0;
-        }
+.photo-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
 
-        .navbar ul li {
-            margin: 0 20px;
-            position: relative;
-        }
-
-        .navbar ul li a {
-            text-decoration: none;
-            color: #fff;
-            text-transform: uppercase;
-        }
-
-        .navbar ul li::after {
-            content: '';
-            height: 3px;
-            width: 0%;
-            background: #009688;
-            position: absolute;
-            left: 0;
-            bottom: -10px;
-            transition: 0.5s;
-        }
-
-        .navbar ul li:hover::after {
-            width: 100%
-        }
-
-        .banner h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-
-        .cta-button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #e50914;
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.2em;
-            border-radius: 5px;
-        }
-
-        .cta-button:hover {
-            background-color: #fff;
-            color: #e50914;
-        }
-		.photo-boxes {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 50px 0;
-        }
-
-        .photo-box {
-            width: 300px;
-            margin: 20px;
-            overflow: hidden;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .photo-box img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .photo-box p {
-            padding: 15px;
-            text-align: center;
-        }
+.photo-box p {
+    padding: 15px;
+    text-align: center;
+}
