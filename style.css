@@ -38,6 +38,9 @@ body {
     float: left;
     cursor: pointer;
 }
+.navbar ul {
+    margin-right: 2em;
+}
 .navbar ul li{
     font-size: 0.75em;
     list-style: none;
