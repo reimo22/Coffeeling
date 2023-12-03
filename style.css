@@ -11,7 +11,7 @@ body {
 .banner {
     color: #fff;
     position: relative;
-    height: 450px;
+    height: 30em;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(./assets/images/bg.jpg);
     background-size: cover;
@@ -25,22 +25,24 @@ body {
 .navbar {
     background-color: #E27802;
     width: 100%;
-    margin: auto;
-    margin-top: 0;
-    padding: 35px 0;
+    height: 4em;
     display: flex;
     align-items: center;
     justify-content: space-between;			
 }
 .logo {
-    margin-left: 50px;
-    width: 128px;
+    height: 100%;
+    margin: 0.5em;
+    margin-left: 2em;
+    position: relative;
+    float: left;
     cursor: pointer;
 }
 .navbar ul li{
+    font-size: 0.75em;
     list-style: none;
     display: inline-block;
-    margin: 0 20px; 
+    margin: 0 1em; 
     position: relative;
 }
 .navbar ul li a{
@@ -88,7 +90,7 @@ body {
 }
 
 .photo-box {
-    width: 300px;
+    flex: 3;
     margin: 20px;
     overflow: hidden;
     border-radius: 10px;
@@ -102,6 +104,7 @@ body {
 }
 
 .photo-box p {
-    padding: 15px;
+    padding: 1em;   
+    font-weight: 600;
     text-align: center;
 }
