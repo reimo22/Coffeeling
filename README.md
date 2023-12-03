@@ -1,6 +1,6 @@
 # Itc site
 
-# TODOS
+# TODOS - 12/3/23
 * navbar sizes dont match
 * red order button looks off
 * media queries for mobile and tablet resolution
