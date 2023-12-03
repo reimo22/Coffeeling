@@ -74,7 +74,7 @@ body {
 .cta-button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #e50914;
+    background-color: #960018;
     color: #fff;
     text-decoration: none;
     font-size: 1.2em;
@@ -83,7 +83,7 @@ body {
 
 .cta-button:hover {
     background-color: #fff;
-    color: #e50914;
+    color: #960018;
 }
 .photo-boxes {
     display: flex;
