@@ -8,3 +8,4 @@
 * media queries for mobile and tablet resolution
 * responsive nav bar
 * possible tagline: Kay sarap kang coffeeling
+* change to own pics or stock
