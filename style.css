@@ -22,6 +22,65 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.values {
+    color: #fff;
+    position: relative;
+    height: 20em;
+    background-color: #8d8d8d;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	margin: auto;
+}
+
+.heading {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.heading p{
+	font-size: 20px;
+	color:#666;
+	margin-bottom: 50px;
+}
+
+.about-us{
+	display: flex;
+	align-items: center;
+	width: 85%;
+	margin: auto;
+}
+
+.about-us img{
+	flex:0 50%;
+	max-width: 50%;
+	height: auto;
+}
+
+.content{
+	padding:35px;
+}
+.content h2{
+	color:#36455c;
+	font-size: 24px;
+	margin:15px 0px;
+	text-decoration-line: #36455c;
+}
+
+.content p{
+	color:#666;
+	font-size: 18px;
+	line-height: 1.5;
+	margin:15px 0px;
+}
+	
+
 .navbar {
     background-color: #E27802;
     width: 100%;
