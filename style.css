@@ -11,6 +11,7 @@ body {
 
 p {
   margin: 1em;
+  font-weight: 500;
 }
 
 .banner {
@@ -39,7 +40,6 @@ p {
     height: 6em;
     background-color: #e27802;
     color: #fff;
-    font-weight: 500;
 }
 
 .footer img {
@@ -60,10 +60,6 @@ p {
   flex-direction: column;
   justify-content: center;
   margin: auto;
-}
-
-.values p {
-    font-weight: 600;
 }
 
 .heading {
@@ -194,7 +190,6 @@ p {
 
 .photo-box p {
   padding: 1em;
-  font-weight: 600;
   text-align: center;
 }
 
