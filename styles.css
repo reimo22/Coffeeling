@@ -88,7 +88,7 @@ h2 {
     width: 100vw;
     min-height: 100vh;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    background-image: linear-gradient(to bottom right, rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url("assets/images/background.jpg");
+    background-image: linear-gradient(to bottom right, rgba(96, 76, 76, .6), rgba(96, 76, 76, .6)), url("img/background.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -875,4 +875,5 @@ form .form-content input:valid~span::before {
 #cart:checked ~ .label-cart{
     color: var(--lightGrey);
 }
+
 
