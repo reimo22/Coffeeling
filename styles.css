@@ -461,6 +461,7 @@ header nav ul li a:hover {
 
 .shop-box .card-bodys {
     padding: 20px;
+    background-color: lightcoral;
     color: black;
     border: 3px solid #3B3B3B;
 }
@@ -874,6 +875,25 @@ form .form-content input:valid~span::before {
 
 #cart:checked ~ .label-cart{
     color: var(--lightGrey);
+}
+
+.button-box {
+    margin-top: 30px;
+}
+
+.form button {
+    height: 40px;
+    width: 60%;
+    background-color: springgreen;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form button:hover {
+    background-color: aqua;
 }
 
 
