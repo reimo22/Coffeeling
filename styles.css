@@ -413,7 +413,7 @@ header nav ul li a:hover {
 /* Shop */
 
 .shop {
-    background-color: #333333;
+    background-color: orange;
     width: 100%;
 }
 
@@ -425,12 +425,12 @@ header nav ul li a:hover {
 }
 
 .shop-header h3 {
-    color: orange;
+    color: darkred;
     padding: 10px 30px;
 }
 
 .shop-header h4 {
-    color: orange;
+    color: darkred;
     padding: 10px 20px;
 }
 
