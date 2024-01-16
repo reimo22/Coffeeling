@@ -1,11 +1,5 @@
-# Itc site
+# Coffeeling website
 
-# TODOS - 12/3/23
-* navbar sizes dont match
-* home page
-  * product cards hover backshadow
-  * ~~place order -> view menu~~
-* media queries for mobile and tablet resolution
-* responsive nav bar
-* possible tagline: Kay sarap kang coffeeling
-* change to own pics or stock
+This serves as final project for Introduction to Computing. It will be live for some time at coffeelineph.com 
+
+You can find an archived version in https://web.archive.org/web/20240114155923/http://coffeelingph.com/
