@@ -324,15 +324,11 @@ textarea {
     height: 100vh; /* Set the height to cover the entire viewport */
 }
 
-  h2{
+  h2 {
       font-size: 0.8em;
   }
   
-  p{
-      font-size: 0.6em;
-  }
-  
-  i{
+  i {
       color:#E27802;
   }
 
